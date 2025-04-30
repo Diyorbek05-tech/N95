@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 80px 120px;
+    max-width: 1600px;
+    border: 10px solid red;
+    background-color: #F5FAFF;
+}
+
+
+/*nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 76px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1B1A18;
+}
+
+.asosiy a{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #0076F5;     
+}
+
+nav button{
+    border: 1px solid #0076F5;
+    width: 116px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: #0076F5;
+    cursor: pointer;
+}
+
+.nava{
+    display: flex;
+    gap:50px ;
+}
+
+.asosiy{
+    color:#0076F5 ;
+}
+/*nav*/
+
+
+/*center school*/
+.center-school{
+    display: flex;
+    justify-content: space-between;
+    gap:30px ;
+    max-width: 1600;
+    align-items: center;
+}
+
+.center-school h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: -8%;
+    margin-bottom: 48px;
+}
+
+.center-school img{
+    width: 550px;
+}
+
+.center-school span{
+    color: #0076F5;
+}
+
+.center-school button{
+    width: 226px;
+    height: 50px;
+    border: 1px solid #0076F5;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.butkurs{
+    background-color: #0076F5;
+    color: #F5FAFF;
+    margin-right: 24px;
+}
+
+.butaloqa{
+    background-color:#F5FAFF;
+    color: #0076F5;
+}
+/*center school*/
+
+
+/*statistika*/
+.stat{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat div{
+    border: 2px solid #F5FAFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.stat img{
+    width: 72px;
+    height: 72px;
+    margin-top: 32px;
+}
+
+.stath2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color: #1B1A18;
+
+}
+
+.stat h2{
+    font-family: Fira Code;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color: #1B1A18;
+}
+
+.stat p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #514D48;
+}
+/*statistika*/
+
+
+/*about us*/
+.aboutus{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutush2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color: #1B1A18;
+}
+
+.aboutus img{
+    margin-left: -22px;
+    width: 754px;
+    height: 603px;
+}
+
+.aboutus h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 0%;
+    color: #1B1A18;
+    margin-bottom: 20px;
+}
+
+.aboutus p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #514D48;
+    margin-bottom: 20px;
+}
+
+.aboutus div{
+    width: 482px;
+    height: 256px;
+}
+/*about us*/
+
+
+/*courses*/
+.kurslar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    max-width: 1600px;
+    align-items: center;
+}
+
+.kurslar a{
+    text-decoration: none;
+    color: #0076F5;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kurslar h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.courses div{
+    border: 2px solid #F5FAFF;
+    border-radius: 10px;
+    width: 390px;
+    height: 448px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.android {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #F5FAFF;
+    border-radius: 10px;
+    width: 390px;
+    height: 428px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.courses img{
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.courses h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #514D48;
+    margin-bottom: 8px;
+}
+
+.courses p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color:#514D48 ;
+    margin-bottom: 12px;
+}
+
+.courses span{
+    color: #0076F5;
+}
+
+.courses button{
+    width: 195px;
+    height: 50px;
+    background-color: #F5FAFF;
+    border-radius: 10px;
+    color: #0076F5;
+    border-color: #0076F5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 24px;
+}
+
+.android button{
+    background-color: #0076F5;
+    color:#F5FAFF ;
+}
+/*courses*/
+
+
+/*free lessons*/
+.bepuld{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    max-width: 1600px;
+    align-items: center;
+    margin-bottom:60px ;
+}
+
+.bepuld a{
+    text-decoration: none;
+    color: #0076F5;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: -290px;
+}
+
+.bepuld h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.free-lesson{
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.free-lesson img{
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+.free-lesson p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #514D48;   
+    margin-bottom: 10px;
+}
+
+.free-lesson button{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    color: #0076F5;
+    border-color: #0076F5;
+    background-color: #F5FAFF;
+}
+
+.backend button{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #0076F5;
+    color: #F5FAFF;
+}
+
+.free-lesson h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: #1B1A18;    
+    margin-bottom: 15px;
+}
+
+.free-lesson div{
+    border-radius: 10px;
+    width: 390px;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 112px;
+    width:400px ;
+    height: 387px;
+}
+
+.backend{
+    border: 2px solid #F5FAFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 112px;
+
+}
+/*free lessons*/
+
+
+/*our team*/
+.team{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    max-width: 1600px;
+    align-items: center;
+    margin-bottom:60px ;
+}
+
+.team a{
+    text-decoration: none;
+    color: #0076F5;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.team h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    color: #1B1A18;
+}
+
+.our-team{
+    display: flex;
+    max-width: 1600px;
+    gap: 12px;
+}
+
+.our-team h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #1B1A18;
+}  
+   
+
+.our-team p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #514D48;    
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.our-team div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 354px;
+    height: 450px;
+    margin-bottom: 112px;
+}
+
+.our-team img{
+    margin-left: 60p;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sardor{
+    border: 2px solid #F5FAFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+/*our team*/
+
+
+/*Certificate*/
+.cer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    color: #1B1A18;
+    margin-bottom:24px ;
+}
+
+.certificate{
+    display: flex;
+    max-width: 1600px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certificate img{
+    width: 700px;
+    margin-bottom:112px ;
+}
+
+.certificate h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #1B1A18;
+    margin-bottom: 16px;
+}
+
+.certificate p{
+    width: 482px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1A18;        
+}
+/*Certificate*/
+
+
+/*footer*/
+.footertop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.footertop h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color:#31344B ;   
+    margin-bottom: 24px; 
+}
+
+.footertop p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #31344B;    
+}
+
+.footertop img{
+    margin-top: 27px;
+}
+
+.google{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.uipro{
+    width:376px ;
+}
+
+.footertop input{
+    width: 354px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #8FC5FF;
+    margin: 15px auto;
+}
+
+.footertop ::placeholder{
+    padding-left: 24px;
+    color: #2990FF;
+}
+
+.footertop button{
+    width: 354px;
+    height: 50px;
+    background-color: #0076F5;
+    border-radius: 10px;
+    border: none
+}
+
+.send{
+    color:#F5FAFF ;
+}
+
+.footerbottom{
+text-align: center;
+}
+
+.footerbottom img{
+    margin-top: 40px;
+    margin-bottom:16px ;
+}
+
+.footerbottom p{
+
+}
+/*footer*/
