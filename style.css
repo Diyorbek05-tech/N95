@@ -8,7 +8,6 @@
     margin: 0 auto;
     padding: 80px 120px;
     max-width: 1600px;
-    border: 10px solid red;
     background-color: #F5FAFF;
 }
 
@@ -584,6 +583,6 @@ text-align: center;
 }
 
 .footerbottom p{
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*footer*/
